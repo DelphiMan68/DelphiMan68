@@ -10,18 +10,6 @@ I don't limit myself to a specific programming language or technology. I choose 
 
 ---
 
-## 🚀 Featured Projects
-
-### TA-Lib4D
-
-**Technical Analysis Library for Delphi & FreePascal**
-
-TA-Lib4D is a technical analysis library that makes a wide range of technical indicators available for Delphi and FreePascal applications.
-
-The goal is to provide developers with reusable and easy-to-integrate tools for implementing technical analysis and market-related calculations directly in their applications.
-
----
-
 ### PineScript4D
 
 **PineScript Interpreter for Delphi & FreePascal**
