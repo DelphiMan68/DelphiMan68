@@ -10,15 +10,24 @@ I don't limit myself to a specific programming language or technology. I choose 
 
 ---
 
-### PineScript4D
+# PineEngine — a Pine Script interpreter written in Delphi
 
-**PineScript Interpreter for Delphi & FreePascal**
+A self contained interpreter for a practical subset of TradingView's Pine Script
+(v3 through v6 style), written in plain Object Pascal with no third-party
+dependencies. It compiles with Delphi (XE2 and newer) and with Free Pascal
+3.2+ in Delphi mode, as a console program (`PineRun`) or as a DLL/shared
+object (`PineLib`) callable from any language with a C FFI — see section 5.
 
-PineScript4D is an implementation of a Pine Script interpreter that allows Pine Script code to be executed from Delphi and FreePascal applications.
+The script is executed **bar by bar**, exactly like Pine does on a chart, so
+`close[1]`, `var`, `ta.ema()` and friends behave the way you expect.
 
-It can also be used as a standalone execution engine, making it possible to run Pine Script code through a command or integrate Pine Script execution into other software and systems.
-
-The project aims to make Pine Script logic accessible beyond its original environment and allow developers to integrate it into their own applications, tools, and systems.
+**The Pine Script code, the candle data and the settings are always three
+separate inputs.** The code is plain text (a `.pine` file, never wrapped in
+JSON); the candles travel as a plain JSON array; everything else —
+`input()` overrides, synthetic-data settings, the pretty-print flag —
+travels as a small JSON object. The library gives back exactly one JSON
+response: the plotted series, logs and alerts, or an `"error"` object if
+something went wrong. Nothing else is ever printed or returned.
 
 ---
 
