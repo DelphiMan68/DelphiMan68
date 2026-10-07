@@ -10,7 +10,7 @@ I don't limit myself to a specific programming language or technology. I choose 
 
 ---
 
-# PineEngine — a Pine Script interpreter written in Delphi
+## PineEngine — a Pine Script interpreter written in Delphi
 
 A self contained interpreter for a practical subset of TradingView's Pine Script
 (v3 through v6 style), written in plain Object Pascal with no third-party
