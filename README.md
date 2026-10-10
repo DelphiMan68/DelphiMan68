@@ -16,7 +16,7 @@ A self contained interpreter for a practical subset of TradingView's Pine Script
 (v3 through v6 style), written in plain Object Pascal with no third-party
 dependencies. It compiles with Delphi (XE2 and newer) and with Free Pascal
 3.2+ in Delphi mode, as a console program (`PineRun`) or as a DLL/shared
-object (`PineLib`) callable from any language with a C FFI — see section 5.
+object (`PineLib`) callable from any language with a C FFI.
 
 The script is executed **bar by bar**, exactly like Pine does on a chart, so
 `close[1]`, `var`, `ta.ema()` and friends behave the way you expect.
