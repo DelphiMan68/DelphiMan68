@@ -12,22 +12,7 @@ I don't limit myself to a specific programming language or technology. I choose 
 
 ## PineEngine — a Pine Script interpreter written in Delphi
 
-A self contained interpreter for a practical subset of TradingView's Pine Script
-(v3 through v6 style), written in plain Object Pascal with no third-party
-dependencies. It compiles with Delphi (XE2 and newer) and with Free Pascal
-3.2+ in Delphi mode, as a console program (`PineRun`) or as a DLL/shared
-object (`PineLib`) callable from any language with a C FFI.
-
-The script is executed **bar by bar**, exactly like Pine does on a chart, so
-`close[1]`, `var`, `ta.ema()` and friends behave the way you expect.
-
-**The Pine Script code, the candle data and the settings are always three
-separate inputs.** The code is plain text (a `.pine` file, never wrapped in
-JSON); the candles travel as a plain JSON array; everything else —
-`input()` overrides, synthetic-data settings, the pretty-print flag —
-travels as a small JSON object. The library gives back exactly one JSON
-response: the plotted series, logs and alerts, or an `"error"` object if
-something went wrong. Nothing else is ever printed or returned.
+**PineEngine** is an open-source Pine Script interpreter written in Delphi and Free Pascal, designed to bring TradingView indicator logic into standalone applications. It enables developers to execute Pine Script code, process market data, and retrieve results in JSON format, making it useful for building trading tools, financial data analysis systems, and custom applications. With support for both native Pascal integration and a DLL interface for other programming languages, PineEngine aims to make Pine Script execution accessible beyond the TradingView platform.
 
 ---
 
