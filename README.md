@@ -7,6 +7,7 @@ I'm a software engineer passionate about turning ideas into practical, reliable,
 I enjoy designing software architecture, building developer tools and reusable libraries, solving challenging engineering problems, and turning complex ideas into simple and usable solutions.
 
 I don't limit myself to a specific programming language or technology. I choose the tools and technologies that best fit the problem and the solution.
+
 ---
 
 ## 🛡️ Resilience4D
