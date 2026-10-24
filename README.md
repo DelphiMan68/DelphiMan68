@@ -10,7 +10,13 @@ I don't limit myself to a specific programming language or technology. I choose 
 
 ---
 
-## PineEngine — a Pine Script interpreter written in Delphi
+## WebSocket4D
+
+**WebSocket4D** is a WebSocket client and server library for Delphi and Free Pascal, designed to simplify real-time, bidirectional communication between applications. It provides a foundation for building interactive systems such as chat applications, live data feeds, monitoring tools, and network-based applications that require fast communication between clients and servers. The project aims to make WebSocket integration straightforward for Pascal developers.
+
+---
+
+## PineEngine
 
 **PineEngine** is an open-source Pine Script interpreter written in Delphi and Free Pascal, designed to bring TradingView indicator logic into standalone applications. It enables developers to execute Pine Script code, process market data, and retrieve results in JSON format, making it useful for building trading tools, financial data analysis systems, and custom applications. With support for both native Pascal integration and a DLL interface for other programming languages, PineEngine aims to make Pine Script execution accessible beyond the TradingView platform.
 
