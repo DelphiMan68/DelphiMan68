@@ -9,7 +9,7 @@ I enjoy designing software architecture, building developer tools and reusable l
 I don't limit myself to a specific programming language or technology. I choose the tools and technologies that best fit the problem and the solution.
 ---
 
-### 🛡️ Resilience4D
+## 🛡️ Resilience4D
 
 **Resilience4D** is a Delphi and Free Pascal library designed to improve application reliability by providing reusable resilience mechanisms for handling failures and unexpected conditions. It helps developers build more robust applications by making it easier to manage errors, handle transient failures, and implement fault-tolerant behavior.
 
