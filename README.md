@@ -9,7 +9,7 @@ I enjoy designing software architecture, building developer tools and reusable l
 I don't limit myself to a specific programming language or technology. I choose the tools and technologies that best fit the problem and the solution.
 
 ![Gmail Badge](https://img.shields.io/badge/-shaahin.ashayeri@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white)
-[![Telegram Badge](https://img.shields.io/badge/-mrAlishah-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/SHA_313)
+[![Telegram Badge](https://img.shields.io/badge/-sha_313-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/SHA_313)
 
 ---
 
